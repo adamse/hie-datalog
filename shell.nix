@@ -2,7 +2,7 @@
 
 pkgs.mkShell {
   buildInputs = [
-    (pkgs.haskell.packages.ghc8101.ghcWithPackages (p: [
+    (pkgs.haskell.packages.ghc8104.ghcWithPackages (p: [
       p.ghc
     ]))
     pkgs.souffle
